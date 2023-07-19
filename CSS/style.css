@@ -1,0 +1,159 @@
+/*css wala variable dana hati "--font-base" --magin variable ekk hadagani */
+
+/*--------------------------------
+    color , font , variable setup
+----------------------------------*/
+
+:root{
+    --font-base:"alpino",sans-serif; /*sans for default font alpino buys sometime to load"*/
+    --c-primary:#975af9;
+    --c-secondary:#46a7f8;
+    --c-background:#efefef;
+    --c-dark:#2d2d2d;
+    --c-black:#000000;
+    
+}
+
+body{
+    font-family: var(--font-base);
+    font-size: 16px;
+    line-height: 1.6;
+}
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+a:hover{
+    color: var(--c-secondary);
+}
+
+.section-padding{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navimg{
+    width: 60px;
+    height: 60px;
+}
+
+/*--------------------------------
+   button css setup
+----------------------------------*/
+
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+
+
+
+
+/*--------------------------------
+    Nav bar setup
+----------------------------------*/
+.navbar{
+    font-family: var(--font-base);
+    font-size: 16px;
+    font-weight: 5000;
+    z-index: 2;
+
+}
+
+.navbar-dark{
+    background-color: var(--c-black);
+}
+.nav-item:hover{
+    color: aqua !important;
+}
+
+
+
+
+
+
+/*--------------------------------
+    hero setup
+----------------------------------*/
+.artwork{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+#hero{
+    background-image: url("../images/raounzalback.jpg");
+    margin-top: -45px;
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
+#hero2{
+    background-color: #070707;
+    
+}
+
+#hero3{
+    background:linear-gradient(white,rgb(149, 27, 114));
+    
+}
+#hero3 p{
+    font-size: 25px;
+}
+
+#hero4  {
+    background-image: url('../images/bird.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+}
+
+#hero4 .whitee{
+    opacity: 0.9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+#hero4 .image{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+#hero6{
+    background-color: rgb(0, 0, 0);
+}
+
+/*--------------------------------
+    about me section
+----------------------------------*/
+
+.about-me{
+    font-size: 70px;
+    font-weight: 550;
+    color: #000000;
+    font-family: var(--font-base);
+}
+
+.about{
+    background:linear-gradient(#03031d,rgb(254, 252, 252))
+}
+
